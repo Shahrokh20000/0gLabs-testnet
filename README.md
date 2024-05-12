@@ -22,7 +22,7 @@ sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
 ## Install GO
 ```shell
 cd $HOME && \
-ver="1.21.3" && \
+ver="1.22.3" && \
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \
 sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz" && \
@@ -228,7 +228,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
   --from=WALLET_NAME \
   --identity="" \
   --website="https://github.com/0xMoei" \
-  --details="0xMoei Community" \
+  --details="0xMoei Community : @OX_SHAH" \
   --node=http://localhost:16657 \
   -y
 ```

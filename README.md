@@ -219,13 +219,13 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 0gchaind tx staking create-validator \
   --amount=1000000ua0gi \
   --pubkey=$(0gchaind tendermint show-validator) \
-  --moniker=NODE_NAME \
+  --moniker=OXSHAH \
   --chain-id=zgtendermint_16600-1 \
   --commission-rate=0.05 \
   --commission-max-rate=0.10 \
   --commission-max-change-rate=0.01 \
   --min-self-delegation=1 \
-  --from=WALLET_NAME \
+  --from=OXSHAH \
   --identity="" \
   --website="https://github.com/0xMoei" \
   --details="0xMoei Community : @OX_SHAH" \

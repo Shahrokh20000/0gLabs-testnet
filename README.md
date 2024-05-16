@@ -23,7 +23,7 @@ sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
 ```shell
 cd $HOME && \
 ver="1.22.3" && \
-wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \
+wget "https://go.dev/dl/go1.22.3.linux-amd64.tar.gz" && \
 sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz" && \
 rm "go$ver.linux-amd64.tar.gz" && \

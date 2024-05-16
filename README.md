@@ -22,7 +22,7 @@ sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
 ## Install GO
 ```shell
 cd $HOME && \
-ver="1.20" && \
+ver="1.22.3" && \
 wget "https://go.dev/dl/go1.20.linux-amd64.tar.gz" && \
 sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz" && \
